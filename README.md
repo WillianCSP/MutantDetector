@@ -35,7 +35,7 @@ http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/mutant={
 retorna HTTP 200 OK, caso seja detectado um mutante, HTTP 403 FORBIDDEN caso não seja detectado e HTTP 400 BAD REQUEST caso o formato não esteja de acordo
 com o padrão especificado.
 
-**(GET /stats)** - Implementação futura para restornar as estatísticas.
+**(GET /stats)** - Implementação futura para retornar as estatísticas.
 
 #### Testes
 
