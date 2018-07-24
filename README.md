@@ -8,7 +8,7 @@ A matriz deve ser quadrada, ou seja, de tamanho NxN e conter apenas as letras A,
 
 O serviço está hospedado na "nuvem", utilizando servidores da AMAZON AWS:
 - Servidor EC2(t2.micro) com rodando Tomcat 7
-- Banco de Dados RDS(db.t2.micro) (bdmutante1.co8fum1cec9s.us-east-1.rds.amazonaws.com)
+- Banco de Dados MySQL5 RDS(db.t2.micro) (bdmutante1.co8fum1cec9s.us-east-1.rds.amazonaws.com)
 
 Foram disponibilizados os seguintes endpoints, utilizando WebServices Jersey Rest:
 
