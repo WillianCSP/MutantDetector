@@ -33,7 +33,7 @@ com o padrão especificado.
 #### Testes
 
 Como API de testes foi utilizado Junit 4 e EclEmma(Jacoco Coverage), cobrindo 97,9% do algoritmo desenvolvido e 77,4 do projeto total(camadas model,resource,factory,dao,controller).
-Detalhes disponíveis em {http://18.208.223.84/}
+Detalhes disponíveis em (http://18.208.223.84/)
 
 Para teste das requisições nos endpoints foi utilizado o software POSTMAN
 
