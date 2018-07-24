@@ -4,6 +4,7 @@
 
 Para ser considerado mutante é necessário que no DNA haja 2 sequências ou mais de 4 letras iguais, 
 nas direções horizontal, vertical, diagonal(Esq-Dir) e diagonal(Dir-Esq), na matriz do DNA.
+A matriz deve ser quadrada, ou seja, de tamanho NxN e conter apenas as letras A, C, G, T
 
 O serviço está hospedado na "nuvem", utilizando servidores da AMAZON AWS:
 - Servidor EC2(t2.micro)
