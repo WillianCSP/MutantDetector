@@ -21,7 +21,7 @@ O parâmetro deve ser um JSON contendo a sequência de Strings do DNA, como o ex
 
 Segue URL completa da requisição utilizando o JSON de exemplo:
 
-{http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/mutant={
+http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/mutant={
   "dna": [
     "ATGCGA",
     "CAGTGC",
@@ -30,7 +30,10 @@ Segue URL completa da requisição utilizando o JSON de exemplo:
     "CCCCTA",
     "TCACTG"
   ]
-}}
+}
 
 retorna HTTP 200 OK, caso seja detectado um mutante, HTTP 403 FORBIDDEN caso não seja detectado e HTTP 400 BAD REQUEST caso o formato não esteja de acordo
 com o padrão especificado.
+
+**(GET /stats)** - Implementação futura para restornar as estatísticas.
+
