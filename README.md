@@ -37,3 +37,11 @@ com o padrão especificado.
 
 **(GET /stats)** - Implementação futura para restornar as estatísticas.
 
+#### Testes
+
+Como API de testes foi utilizado Junit 4 e EclEmma(Jacoco Coverage), cobrindo 97,9% do algoritmo desenvolvido e 77,4 do projeto total(camadas model,resource,factory,dao,controller).
+
+#### Melhorias futuras
+
+- Uso de frameworks como Spring ou EJB.
+- Para atender um fluxo grande de dados, poderia ser utilizado serviços como o Auto Scaling da AWS ou também Mensageria como o Apache Kafka
