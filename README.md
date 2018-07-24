@@ -11,17 +11,17 @@ O serviço está hospedado na "nuvem", utilizando servidores da AMAZON AWS:
 
 Foram disponibilizados os seguintes endpoints, utilizando WebServices Jersey Rest:
 
-(GET /ping) - Para teste de disponibilidade do servidor.
-		http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/ping
+**(GET /ping)** - Para teste de disponibilidade do servidor.
+{http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/ping}
 
-(POST /mutant) - Para análise do DNA
+**(POST /mutant)** - Para análise do DNA
 
 O parâmetro deve ser um JSON contendo a sequência de Strings do DNA, como o exemplo abaixo:
 {"dna": ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]}
 
 Segue URL completa da requisição utilizando o JSON de exemplo:
 
-http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/mutant={
+{http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/mutant={
   "dna": [
     "ATGCGA",
     "CAGTGC",
@@ -30,7 +30,7 @@ http://18.208.223.84:8080/MutantDetector/mutantDetectorWS/mutant={
     "CCCCTA",
     "TCACTG"
   ]
-}
+}}
 
 retorna HTTP 200 OK, caso seja detectado um mutante, HTTP 403 FORBIDDEN caso não seja detectado e HTTP 400 BAD REQUEST caso o formato não esteja de acordo
 com o padrão especificado.
