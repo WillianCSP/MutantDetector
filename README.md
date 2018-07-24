@@ -39,5 +39,5 @@ Para teste das requisições nos endpoints foi utilizado o software POSTMAN
 
 #### Melhorias futuras
 
-- Uso de frameworks como Spring ou EJB.
+- Uso de frameworks como Spring, EJB, JPA/Hibernate.
 - Para atender um fluxo grande de dados, poderia ser utilizado serviços como o Auto Scaling da AWS ou também Mensageria como o Apache Kafka
